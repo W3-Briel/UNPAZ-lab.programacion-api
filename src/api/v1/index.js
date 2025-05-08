@@ -1,7 +1,7 @@
 const express = require("express")
 const APP = express()
 
-const routerOperaciones = require("./routers/operaciones/index")
+const routerOperaciones = require("./routers/operaciones.router")
 
 /**
  * puerto donde escuchara el servidor web
