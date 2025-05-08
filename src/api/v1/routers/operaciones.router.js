@@ -8,9 +8,9 @@ router.post("/", (req,res)=>{
 
     try {
         let operacionesRes = operacionesController(body)
-            if (!operacionesController){
-                return res.status(204).json({"message": 'no hay nada amigo'})
-            } 
+            // if (!operacionesController){
+            //     return res.status(204).json({"message": 'no hay nada amigo'})
+            // } 
             return res.status(201).json(operacionesRes)
     } catch (e) {
         return res.status(401).json({"error": e.message})
