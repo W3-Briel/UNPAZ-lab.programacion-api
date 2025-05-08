@@ -1,0 +1,27 @@
+{
+  "name": "unpaz-lab.programacion-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./src/api/v1/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon node ./src/api/v1/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/W3-Briel/UNPAZ-lab.programacion-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/W3-Briel/UNPAZ-lab.programacion-api/issues"
+  },
+  "homepage": "https://github.com/W3-Briel/UNPAZ-lab.programacion-api#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
